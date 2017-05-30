@@ -1,0 +1,21 @@
+.DS_Store
+build/output/
+build/tmp/
+*TMP*
+node_modules/
+.idea/
+*.sublime-project
+*.sublime-workspace
+config.local.json
+docs/**/
+
+#-----------------------------
+# INVALID FILES
+# (for cross OS compatibility)
+#-----------------------------
+*[\<\>\:\"\/\\\|\?\*]*
+main.css
+*.codekit
+*.sass-cache
+tests/.grunt
+_SpecRunner.html

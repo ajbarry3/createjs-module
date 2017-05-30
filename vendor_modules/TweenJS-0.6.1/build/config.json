@@ -1,0 +1,16 @@
+{
+	"source": [
+		"../src/createjs/utils/extend.js",
+		"../src/createjs/utils/promote.js",
+		"../src/createjs/events/Event.js",
+		"../src/createjs/events/EventDispatcher.js",
+		"../src/createjs/utils/Ticker.js",
+		"../src/tweenjs/Tween.js",
+		"../src/tweenjs/Timeline.js",
+		"../src/tweenjs/Ease.js",
+		"../src/tweenjs/MotionGuidePlugin.js",
+		"../src/tweenjs/version.js"
+	],
+
+	"docs_out_path":"./output/TweenJSDocs/"
+}
