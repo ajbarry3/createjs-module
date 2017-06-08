@@ -1,6 +1,6 @@
 {
     "name": "createjs-module",
-    "version": "0.8.2",
+    "version": "0.8.2-4",
     "description": "Collection of libraries in the CreateJS suite. For hosting on NPM/Bower.",
     "author": "AJ Barry <ajbarry3@gmail.com>",
     "main": "./createjs.js",

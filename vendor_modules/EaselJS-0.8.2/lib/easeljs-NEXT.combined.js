@@ -1,3 +1,4 @@
+var createjs = (this.createjs = (this.createjs || {}));
 /*!
 * EaselJS
 * Visit http://createjs.com/ for documentation, updates and examples.
@@ -16858,3 +16859,4 @@ this.createjs = this.createjs || {};
 	s.buildDate = /*=date*/"Wed, 17 May 2017 17:41:08 GMT"; // injected by build process
 
 })();
+if(typeof module !== "undefined" && typeof module.exports !== "undefined") module.exports = this.createjs;
