@@ -15,7 +15,7 @@ npm install createjs-module --save
 **Angular**
 ```ts
 import { Component, AfterViewInit } from '@angular/core';
-import * as easelGL from 'easel-gl';
+import * as createjs from 'createjs-module';
 
 @Component({
   selector: 'app-root',
