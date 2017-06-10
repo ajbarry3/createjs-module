@@ -1,10 +1,15 @@
-# Easeljs-Next
+# CreateJS library module for Angular and Ionic
 
-This is the createjs-0.8.2 collection module for Angular and Ionic.
+This is the createjs-0.8.2 collection.
+
+* EaselJS
+* TweenJS
+* SoundJS
+* PreloadJS
 
 You can find documentation at [CreateJS](http://blog.createjs.com/).
 
-***Note vectored objects do not work with StageGL only bitmap images.
+
 
 ## Install
 

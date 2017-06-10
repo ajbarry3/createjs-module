@@ -1,6 +1,6 @@
 {
     "name": "createjs-module",
-    "version": "0.8.2-5",
+    "version": "0.8.2-7",
     "description": "Collection of libraries in the CreateJS suite. For hosting on NPM/Bower.",
     "author": "AJ Barry <ajbarry3@gmail.com>",
     "main": "./createjs.js",
@@ -11,7 +11,21 @@
     "license": "MIT",
     "keywords": [
         "createjs",
-        "easeljs"
+        "easeljs",
+        "angular",
+        "angular2",
+        "angular4",
+        "angular 2",
+        "angular 4",
+        "ionic",
+        "ionic2",
+        "ionic3",
+        "ionic 2",
+        "ionic 3",
+        "easeljs",
+        "tweenjs",
+        "soundjs",
+        "preloadjs"
     ],
     "devDependencies": {
         "babel": "^5.8.23",
