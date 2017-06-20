@@ -1,37 +1,38 @@
 {
-    "name": "createjs-module",
-    "version": "0.8.2-7",
-    "description": "Collection of libraries in the CreateJS suite. For hosting on NPM/Bower.",
-    "author": "AJ Barry <ajbarry3@gmail.com>",
-    "main": "./createjs.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ajbarry3/createjs-module"
-    },
-    "license": "MIT",
-    "keywords": [
-        "createjs",
-        "easeljs",
-        "angular",
-        "angular2",
-        "angular4",
-        "angular 2",
-        "angular 4",
-        "ionic",
-        "ionic2",
-        "ionic3",
-        "ionic 2",
-        "ionic 3",
-        "easeljs",
-        "tweenjs",
-        "soundjs",
-        "preloadjs"
-    ],
-    "devDependencies": {
-        "babel": "^5.8.23",
-        "gulp": "^3.9.0",
-        "gulp-concat": "^2.6.0",
-        "gulp-insert": "^0.5.0",
-        "gulp-util": "^3.0.6"
-    }
+  "name": "createjs-module",
+  "version": "0.8.2-10",
+  "description": "Collection of libraries in the CreateJS suite for Angular and Ionic.",
+  "author": "AJ Barry <ajbarry3@gmail.com>",
+  "main": "./createjs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajbarry3/createjs-module"
+  },
+  "license": "MIT",
+  "keywords": [
+    "createjs",
+    "easeljs",
+    "angular",
+    "angular2",
+    "angular4",
+    "angular 2",
+    "angular 4",
+    "ionic",
+    "ionic2",
+    "ionic3",
+    "ionic 2",
+    "ionic 3",
+    "easeljs",
+    "tweenjs",
+    "soundjs",
+    "preloadjs"
+  ],
+  "devDependencies": {
+    "@types/createjs-lib": "0.0.29",
+    "babel": "^5.8.23",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-util": "^3.0.6"
+  }
 }
