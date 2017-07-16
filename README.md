@@ -1,6 +1,7 @@
 # CreateJS library module for Angular and Ionic
 
 This is the createjs-0.8.2 collection.
+***Now with typings!!!***
 
 * EaselJS
 * TweenJS
