@@ -1,9 +1,10 @@
 {
   "name": "createjs-module",
-  "version": "0.8.2-10",
+  "version": "0.8.2-22",
   "description": "Collection of libraries in the CreateJS suite for Angular and Ionic.",
   "author": "AJ Barry <ajbarry3@gmail.com>",
   "main": "./createjs.js",
+  "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/ajbarry3/createjs-module"
@@ -28,7 +29,6 @@
     "preloadjs"
   ],
   "devDependencies": {
-    "@types/createjs-lib": "0.0.29",
     "babel": "^5.8.23",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
