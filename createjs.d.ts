@@ -1,6 +1,6 @@
-// Type definitions for EaselJS 0.8.0
-// Project: http://www.createjs.com/#!/EaselJS
-// Definitions by: Pedro Ferreira <https://bitbucket.org/drk4>, Chris Smith <https://github.com/evilangelist>
+// Type definitions for CreateJS
+// Project: http://www.createjs.com/
+// Definitions by: Pedro Ferreira <https://bitbucket.org/drk4>, Chris Smith <https://github.com/evilangelist>, Satoru Kimura <https://github.com/gyohk>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 /*
@@ -9,13 +9,17 @@
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
+// Common class and methods for CreateJS.
+// Library documentation : http://www.createjs.com/Docs/EaselJS/modules/EaselJS.html
+// Library documentation : http://www.createjs.com/Docs/PreloadJS/modules/PreloadJS.html
+// Library documentation : http://www.createjs.com/Docs/SoundJS/modules/SoundJS.html
+// Library documentation : http://www.createjs.com/Docs/TweenJS/modules/TweenJS.html
 
 
 // rename the native MouseEvent, to avoid conflict with createjs's MouseEvent
 interface NativeMouseEvent extends MouseEvent {
 
 }
-
 declare namespace createjs {
     export class Event {
         constructor(type: string, bubbles: boolean, cancelable: boolean);
@@ -102,6 +106,8 @@ declare namespace createjs {
     export function proxy(method: (eventObj: Object) => void, scope: Object, ...arg: any[]): (eventObj: Object) => any;
     export function proxy(method: { handleEvent: (eventObj: Object) => boolean; }, scope: Object, ...arg: any[]): (eventObj: Object) => any;
     export function proxy(method: { handleEvent: (eventObj: Object) => void; }, scope: Object, ...arg: any[]): (eventObj: Object) => any;
+
+//////////////////////////////////////////////////////////////////////////easel
 
     export class AlphaMapFilter extends Filter {
         constructor(alphaMap: HTMLImageElement | HTMLCanvasElement);
@@ -287,8 +293,6 @@ declare namespace createjs {
         swapChildren(child1: DisplayObject, child2: DisplayObject): void;
         swapChildrenAt(index1: number, index2: number): void;
     }
-
-
 
     export class DisplayObject extends EventDispatcher {
         constructor();
@@ -1129,6 +1133,8 @@ declare namespace createjs {
         // methods
         static get(): number;
     }
+
+    ////////////////////////////////////preloadjs
     
     export class AbstractLoader extends EventDispatcher {
         // properties
@@ -1399,6 +1405,9 @@ declare namespace createjs {
         static canLoadItem(item: Object): boolean;
         }
 
+        ///////////////////////soundjs
+
+
     export class AbstractPlugin
         {
         // methods
@@ -1645,6 +1654,8 @@ declare namespace createjs {
         sourceNode: AudioNode;
         }
 
+        ////////////tweenjs
+
     export class CSSPlugin {
         constructor();
 
@@ -1794,7 +1805,7 @@ declare namespace createjs {
         static version: string;
     }
 }
-
+  
 declare module 'createjs-module' {
   export = createjs;
 }
